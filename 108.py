@@ -1,6 +1,6 @@
-al=[int(i) for i in input().split()]
-an=al[0]
-as=al[a1]
-al=[int(i) for i in input().split()]
-al.sort()
-print(al[as-a1])
+san,kee=input().split()
+san=int(san)
+kee=int(kee)
+x=list(map(int,input().split()))
+x.sort()
+print(x[kee-1])
